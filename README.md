@@ -7,7 +7,7 @@
 使用MCSM管理员账户登录到面板，点击设置，在基本设置选项中，将实例模板配置设置为 
 ```URL
 
-https://raw.kkgithub.com/MBI-Team/MCSM-Autuinstall/main/index.json
+https://raw.kkgithub.com/MBI-Team/MCSM-Autoinstall/main/index.json
 
 ```
 然后就可以使用我们的重装模板啦。
