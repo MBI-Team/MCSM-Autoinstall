@@ -1,35 +1,14 @@
 # Minecraft 服务器配置索引
 
 MCSManager是一个开源、分布式、开箱即用的控制面板，支持Minecraft和Steam game servers.
-MCSManager在内部获得了一定程度的声望Minecraft和other gaming communities。它帮助您管理多台物理机，在任何主机上配置游戏服务器，并提供一个安全可靠的多用户权限系统。MCSManager是大多数服务器托管服务提供商的一站式解决方案。
-
-## Linux安装脚本
-
-sudo su -c "wget -qO- https://script.mcsmanager.com/setup.sh | bash"
-
- ### 启动方法
-
-#### Start the panel daemon first.
-#### This is a service process used for process control and terminal management.
-systemctl start mcsm-daemon.service
-#### Start the panel web service again.
-#### This is used to implement services that support web page access and user management.
-systemctl start mcsm-web.service
-
-#### Restart panel command
-systemctl restart mcsm-daemon.service
-systemctl restart mcsm-web.service
-
-#### Stop panel command
-systemctl stop mcsm-web.service
-systemctl stop mcsm-daemon.service
+MCSManager提供Minecraft和其他游戏服务器支持。它帮助您管理多台物理机，在任何主机上配置游戏服务器，并提供一个安全可靠的多用户权限系统。MCSManager是大多数服务器托管服务提供商的一站式解决方案。
 
 ## 使用方法
 
 使用MCSM管理员账户登录到面板，点击设置，在基本设置选项中，将实例模板配置设置为 
 ```URL
 
-https://raw.kkgithub.com/MBI-Team/MCSM-Autoinstall/main/index.json
+https://gh-proxy.com/github.com/MBI-Team/MCSM-Autoinstall/raw/refs/heads/main/index.json
 
 ```
 然后就可以使用我们的重装模板啦。
