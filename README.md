@@ -15,7 +15,7 @@ https://gh-proxy.com/github.com/MBI-Team/MCSM-Autoinstall/raw/refs/heads/main/in
 
 ## 功能特点
 
-- 支持多种 Minecraft 版本（1.12.2 - 1.21.3）
+- 支持多种 Minecraft 版本（1.12.2 - 1.21.6）
 - 提供多种服务器核心选择（Paper、Forge等）
 - 包含预配置的整合包服务端
 - 中文本地化支持
@@ -24,7 +24,7 @@ https://gh-proxy.com/github.com/MBI-Team/MCSM-Autoinstall/raw/refs/heads/main/in
 ## 服务器类型
 
 ### Paper 服务端
-- 支持最新版本（1.21.3）到经典版本（1.12.2）
+- 支持最新版本（1.21.6）到经典版本（1.12.2）
 - 优化的性能和稳定性
 - 适合纯净生存服务器
 
@@ -39,7 +39,7 @@ https://gh-proxy.com/github.com/MBI-Team/MCSM-Autoinstall/raw/refs/heads/main/in
   - 1.21.x 版本：JDK 21+
   - 1.20.x 版本：JDK 17+
   - 1.16.x 及更早版本：JDK 8+
-- 内存要求：最低 4GB RAM
+- 内存要求：最低 2GB RAM
 - 建议使用 SSD 存储以获得更好性能
 
 ## 快速开始
